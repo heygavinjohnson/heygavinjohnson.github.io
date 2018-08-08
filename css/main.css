@@ -313,8 +313,8 @@ ul.list {
     }
 
     h1 {
-      font-size:72px;
-      letter-spacing: -3px;
+      font-size:62px;
+      letter-spacing: -1px;
       margin-bottom: 20px;
     }
 
@@ -341,10 +341,7 @@ ul.list {
   }
 
 @media (min-width: 1600px) {
-  h1 {
-    font-size:82px;
-    letter-spacing: -4px;
-  }
+
   p{
     font-size: 20px;
     line-height: 32px;
