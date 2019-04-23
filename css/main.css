@@ -504,7 +504,7 @@ button::-moz-focus-inner,input::-moz-focus-inner {
 }
 
 .blue-black{
-  background-color: black;
+  background-color: #1f1d2d;
 }
 
 .navbar-cp {
@@ -1470,4 +1470,20 @@ button::-moz-focus-inner,input::-moz-focus-inner {
   -webkit-animation: bounce 4s infinite;
   animation: bounce 4s infinite;
 }
-<style></style>
+
+.google-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+
+.google-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 2560px;
+    height: 100%;
+    border: 0;
+}
